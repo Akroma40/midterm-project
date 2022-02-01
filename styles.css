@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
+body {
+    background-color: #52a7c1;
+    background-image: linear-gradient(315deg, #52a7c1 0%, #b3f6d8 74%);
+    min-height: 100vh;
+     align-items: center;
+}
+
+li, a, button  {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    color: #030303;
+    text-decoration: none;
+    }
+    
+.nav_links {
+    list-style: none;
+}
+ .nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+ }
+ .nav_links li a {
+    transition: all 0.3s ease 0s;
+ }
+
+ .nav_links li a:hover {
+    color:#ff006a98
+ }
+
+.clock {
+    position: absolute;
+    top: 7%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #0f1516;
+    font-size: 60px;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 7px;
+    border: #0f1516 solid  1px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 39px 6px rgba(0,0,0,0.66);
+-webkit-box-shadow: 10px 10px 39px 6px rgba(0,0,0,0.66);
+-moz-box-shadow: 10px 10px 39px 6px rgba(0,0,0,0.66);
+}
+h1 {
+    font-size: 80px;
+    font-family: "Montserrat", sans-serif;
+    align-items: center;
+    text-align: center;
+}
+
+p{
+    font-size: 35px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+.buttonn {
+    width: 250px;
+    height: 100px;
+    margin-left: 800px;
+    font-size: 28px;
+    font-family: "Montserrat", sans-serif;
+    background-color: rgb(99, 150, 226);
+   border: black solid 1px;
+    border-radius: 50px;
+    box-shadow: inset 0 0 0 0 #f9e506;
+    transition: ease-out 0.3s;
+    outline: none;
+    color: rgb(255, 255, 255);
+    box-shadow: 10px 10px 39px 6px rgba(0,0,0,0.66);
+-webkit-box-shadow: 10px 10px 39px 6px rgba(0,0,0,0.66);
+-moz-box-shadow: 10px 10px 39px 6px rgba(0,0,0,0.66);
+}
+
+button:hover{
+    background-color: rgb(92, 211, 132);
+}
+
+
+
+.foot {
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+	position: fixed;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+    background-color: #52a7c1;
+    background-image: linear-gradient(315deg, #52a7c1 0%, #b3f6d8 74%);
+	color: rgb(0, 0, 0);
+	text-align: center;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <title>Creative Content</title>
+</head>
+<body> 
+    <header>
+        <nav>
+            <ul class="nav_links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="content.html">Creative Content</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
+    <br>
+    <br>
+    <br>
+    <div>
+        <h1>Quote of the Day</h1>
+        <p>Press the button below to recieve a random quote!</p>
+
+        <button class ="buttonn" onclick="generateQuote();">New Quote</button>
+        <p id="quoteOutput"></p>
+        <p id="authorOutput"></p>
+    </div>
+
+    <footer>
+        <p class= "foot">Copyright &copy; Cuenco, Darryl Mikey Elvin T. 2021 The Elvin Company.  Contact: +09661473561</p>
+    </footer>
+  <script src="app.js"></script>
+</body>
+</html>
